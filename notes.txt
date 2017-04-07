@@ -1,0 +1,21 @@
+Code Problems:
+Fixed filter overlapping issues - now filters can combine and work the way they are intended to.
+Fixed bugs in which pokemon with certain characters did not load an image or caused the app to crash because of the array search call + glide call
+
+Design Review:
+weather icons for android mobile - all screen dims/resolutions (used in app)
+https://dribbble.com/shots/3416567-Weather-outline-icons
+weather recyclerview display with description, title, icon and temperature
+https://dribbble.com/shots/3406600-Weather-App-Update
+weather app recyclerview design
+https://dribbble.com/shots/3398586-Weather-App-02
+weather app recycler with splash background
+https://dribbble.com/shots/3396159-Weather-App
+weather app with really nice, expanded cardview
+https://dribbble.com/shots/3389761-Weather
+Yahoo! mobile weather app design
+https://lh3.ggpht.com/XSbeeZmAqXKPmdKH9smlja4Z3rW8G1x9nWA-PMFt-FO1tmGycKK6pEIiAUhah8EF1oE=h900
+
+Design Notes:
+went with a combination of the expanded RV design and the standard description-title-icon-temperature design.
+Also took the icons from the list of icons on dribble
