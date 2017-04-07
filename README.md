@@ -5,4 +5,4 @@ Pokedex allows users to search and view detailed pokemon information from a mobi
 # Dev Technologies Used
 API Calls,
 Glide,
-RecyclerViews and Carviews
+RecyclerViews and Cardviews
