@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profilewallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/profileimage"
+            android:layout_below="@+id/profilewallpaper"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/circle"
+            android:elevation="10dp"
+            android:padding="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/charmander"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/thicktextViewStyle"
+                android:id="@+id/profilehp"
+                android:textColor="#222"
+                android:layout_marginTop="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/thicktextViewStyle"
+                android:id="@+id/profileatk"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#222"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/thicktextViewStyle"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#222"
+                android:id="@+id/profiledef"
+                android:layout_marginTop="20sp"/>
+        </GridLayout>
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:paddingBottom="24dp"
+            android:layout_below="@+id/profilewallpaper"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profilename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="76dp"
+                android:text="PokemonName"
+                style="@style/profiletextViewStyle"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profilespecies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="species"
+                style="@style/profiletextViewStyle"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_below="@+id/profilename"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:text="Click Image to Search Web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+    </RelativeLayout>
+</ScrollView>
+

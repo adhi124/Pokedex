@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="FontStyle">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">@color/textColor</item>/>
+    </style>
+
+    <style name="WindowTheme">
+        <item name="android:windowBackground">@color/windowColor</item>
+        <item name="android:colorBackgroundCacheHint">@color/windowColor</item>
+    </style>
+
+    <!--<style name="buttonStyle">
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:layout_marginLeft">25sp</item>
+        <item name="android:layout_marginRight">25sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/textColor</item>/>
+    </style>-->
+
+    <style name="textViewStyle">
+        <item name="android:background">@drawable/textfieldshape</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:layout_marginLeft">25sp</item>
+        <item name="android:layout_marginRight">25sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/buttonColor</item>/>
+        <item name="android:padding">5sp</item>
+    </style>
+
+    <style name="profiletextViewStyle">
+        <item name="android:background">@drawable/profiletextviewshape</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:layout_marginLeft">25sp</item>
+        <item name="android:layout_marginRight">25sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#FFFFFF</item>/>
+        <item name="android:padding">5sp</item>
+    </style>
+
+    <style name="thicktextViewStyle">
+        <item name="android:background">@drawable/thicktextviewshape</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:layout_marginLeft">25sp</item>
+        <item name="android:layout_marginRight">25sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/buttonColor</item>/>
+        <item name="android:padding">5sp</item>
+    </style>
+
+    <!--<style name="cheatButtonStyle">
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:layout_marginLeft">25sp</item>
+        <item name="android:layout_marginRight">25sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/buttonColor</item>/>
+    </style>-->
+
+</resources>
